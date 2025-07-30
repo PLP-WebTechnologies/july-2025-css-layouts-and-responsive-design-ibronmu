@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive CSS Layout Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <h1>My Responsive Page</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-grid">
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <ul>
+        <li><a href="#">Quick Link 1</a></li>
+        <li><a href="#">Quick Link 2</a></li>
+        <li><a href="#">Quick Link 3</a></li>
+      </ul>
+    </aside>
+    <section class="content">
+      <h2 id="features">Features</h2>
+      <div class="card-row">
+        <div class="card">
+          <h3>Flexbox Card</h3>
+          <p>This card uses Flexbox for layout. Adjust the browser size to see how cards wrap and align responsively.</p>
+        </div>
+        <div class="card">
+          <h3>Grid Power</h3>
+          <p>Main layout uses CSS Grid for 2D structure—notice how the sidebar and content shift on different screens.</p>
+        </div>
+        <div class="card">
+          <h3>Media Queries</h3>
+          <p>Media queries enable smooth transitions between desktop, tablet, and mobile layouts.</p>
+        </div>
+      </div>
+      <section class="about-section" id="about">
+        <h2>About</h2>
+        <p>This page demonstrates modern CSS layouts and responsive design essentials without using frameworks.</p>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Responsive Layout Example. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
